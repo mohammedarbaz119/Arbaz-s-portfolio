@@ -49,7 +49,7 @@ const Hero = () => {
            */}
           <TextGenerateEffect
             words="Transforming Concepts into Seamless User Experiences"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            className="text-center text-[30px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
@@ -57,9 +57,9 @@ const Hero = () => {
             based in India.
           </p>
 
-          <a href="#projects">
+          <a href="/Resume.pdf" download={"/Resume.pdf"}>
             <MagicButton
-              title="Show my work"
+              title="Resume"
               icon={<FaLocationArrow />}
               position="right"
             />
