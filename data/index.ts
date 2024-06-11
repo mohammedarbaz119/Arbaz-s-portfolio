@@ -113,15 +113,24 @@ export const gridItems = [
 // imageUrl: "/TicketShow.jpeg",
 // },
 
+type Projects={
+  id:number;
+  title:string;
+  des:string;
+  img:string;
+  iconLists:string[];
+  github?:string;
+  link?:string;
+};
 
-export const projects = [
+
+export const projects:Projects[] = [
   {
     id: 1,
     title: "MovieReviews",
     des: "MovieReviews is a web app where users can see the reviews of the movies and can also add their reviews.",
     img: "/reviewsapp.png",
     iconLists: ["/re.svg","spbt.jpg","css.png","java.png","mongo.png"],
-    link: "/",
     github:"https://github.com/mohammedarbaz119/Review-App"
   },
   {
@@ -130,7 +139,6 @@ export const projects = [
     des: "Project uses ML for crop and fertilizer recommendations with plant disease recogniton for crop diagnosis, boosting agricultural productivity.",
     img: "/cropsmaart.svg",
     iconLists: ["flask.jpg","html.png","css.png","/js.png"],
-    link: "/ui.yoom.com",
     github:"https://github.com/nihal3000/Harvestify"
   },
   {
@@ -139,7 +147,7 @@ export const projects = [
     des: "TicketShow is a web app where users can book tickets for movies and can also see the reviews of the movies.",
     img: "/TicketShow.jpeg",
     iconLists: ["flask.jpg","html.png","css.png","boots.png","vue.png","redis.png"],
-    link: "/",
+    github:"https://github.com/asdsyd/appdev2"
   },
 ];
 
