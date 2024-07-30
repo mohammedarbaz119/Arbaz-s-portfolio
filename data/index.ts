@@ -68,7 +68,6 @@ export const gridItems = [
   },
 ];
 
-
 // name: "MovieReviews",
 // description:
 //   "MovieReviews is a web app where users can see the reviews of the movies and can also add their reviews.",
@@ -76,7 +75,6 @@ export const gridItems = [
 // tech: ["React.js", "Spring boot", "MongoDB"],
 // github: "https://github.com/mohammedarbaz119/Spring-Boot",
 // },
-
 
 // {
 // name: "cropSmart",
@@ -113,41 +111,55 @@ export const gridItems = [
 // imageUrl: "/TicketShow.jpeg",
 // },
 
-type Projects={
-  id:number;
-  title:string;
-  des:string;
-  img:string;
-  iconLists:string[];
-  github?:string;
-  link?:string;
+type Projects = {
+  id: number;
+  title: string;
+  des: string;
+  img: string;
+  iconLists: string[];
+  github?: string;
+  link?: string;
 };
 
-
-export const projects:Projects[] = [
+export const projects: Projects[] = [
+  {
+    id: 2,
+    title: "DreamEstate",
+    des: " a full-stack real estate platform leveraging modern web technologies. Built robust backend APIs with Express.js and Node.js for efficient data handling and server-side operations. Crafted dynamic, responsive user interfaces using React, ensuring a smooth and interactive property browsing experience.",
+    img: "/DreamEstate.JPG",
+    iconLists: ["html.png", "/js.png", "/node.png", "react.png", "mongo.png"],
+    link: "https://dreamestate.vercel.app/",
+  },
   {
     id: 1,
     title: "MovieReviews",
     des: "MovieReviews is a web app where users can see the reviews of the movies and can also add their reviews.",
     img: "/reviewsapp.png",
-    iconLists: ["/re.svg","spbt.jpg","css.png","java.png","mongo.png"],
-    github:"https://github.com/mohammedarbaz119/Review-App"
+    iconLists: ["/re.svg", "spbt.jpg", "css.png", "java.png", "mongo.png"],
+    github: "https://github.com/mohammedarbaz119/Review-App",
   },
   {
     id: 2,
     title: "CropSmart",
     des: "Project uses ML for crop and fertilizer recommendations with plant disease recogniton for crop diagnosis, boosting agricultural productivity.",
     img: "/cropsmaart.svg",
-    iconLists: ["flask.jpg","html.png","css.png","/js.png"],
-    github:"https://github.com/nihal3000/Harvestify"
+    iconLists: ["flask.jpg", "html.png", "css.png", "/js.png"],
+    github: "https://github.com/nihal3000/Harvestify",
   },
   {
     id: 3,
     title: "TicketShow",
     des: "TicketShow is a web app where users can book tickets for movies and can also see the reviews of the movies.",
     img: "/TicketShow.jpeg",
-    iconLists: ["flask.jpg","html.png","css.png","boots.png","vue.png","redis.png"],
-    github:"https://github.com/asdsyd/appdev2"
+    iconLists: [
+      "flask.jpg",
+      "html.png",
+      "css.png",
+      "boots.png",
+      "vue.png",
+      "redis.png",
+    ],
+    github: "https://github.com/asdsyd/appdev2",
   },
 ];
 
@@ -184,22 +196,20 @@ export const testimonials = [
   },
 ];
 
-
-
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url:"https://github.com/mohammedarbaz119"
+    url: "https://github.com/mohammedarbaz119",
   },
   {
     id: 2,
     img: "/twit.svg",
-    url:"https://twitter.com/@mda835856"
+    url: "https://twitter.com/@mda835856",
   },
   {
     id: 3,
     img: "/link.svg",
-    url:"https://www.linkedin.com/in/mohammed-arbaz-551a51243/"
+    url: "https://www.linkedin.com/in/mohammed-arbaz-551a51243/",
   },
 ];
