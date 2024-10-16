@@ -163,38 +163,7 @@ export const projects: Projects[] = [
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Mohammed Arbazuddin Qureshi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mohammed Arbazuddin Qureshi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mohammed Arbazuddin Qureshi is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Mohammed Arbazuddin Qureshi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mohammed Arbazuddin Qureshi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mohammed Arbazuddin Qureshi is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Mohammed Arbazuddin Qureshi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mohammed Arbazuddin Qureshi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mohammed Arbazuddin Qureshi is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Mohammed Arbazuddin Qureshi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mohammed Arbazuddin Qureshi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mohammed Arbazuddin Qureshi is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Mohammed Arbazuddin Qureshi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mohammed Arbazuddin Qureshi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mohammed Arbazuddin Qureshi is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
+
 
 export const socialMedia = [
   {
@@ -210,6 +179,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    url: "https://www.linkedin.com/in/mohammed-arbaz-551a51243/",
+    url: "https://www.linkedin.com/in/mohammed-arbazuddin-qureshi-551a51243/",
   },
 ];
