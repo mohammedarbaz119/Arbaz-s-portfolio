@@ -193,6 +193,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    url: "https://www.linkedin.com/in/mohammed-arbaz-551a51243/",
+    url: "https://www.linkedin.com/in/mohammed-arbazuddin-qureshi-551a51243/",
   },
 ];
