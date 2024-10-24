@@ -123,7 +123,7 @@ type Projects = {
 
 export const projects: Projects[] = [
   {
-    id: 2,
+    id: 1,
     title: "DreamEstate",
     des: " a full-stack real estate platform leveraging modern web technologies. Built robust backend APIs with Express.js and Node.js for efficient data handling and server-side operations. Crafted dynamic, responsive user interfaces using React, ensuring a smooth and interactive property browsing experience.",
     img: "/DreamEstate.JPG",
@@ -131,7 +131,15 @@ export const projects: Projects[] = [
     link: "https://dreamestate.vercel.app/",
   },
   {
-    id: 1,
+    id: 2,
+    title: "ChemBot",
+    des: "ChemBot is a CRAG-based LLM chatbot that answers users' queries related to chemistry, providing accurate and detailed information.",
+    img: "/chembot.png",
+    iconLists: ["flask.jpg", "html.png", "css.png", "react.png", "node.png"],
+    link: "https://chembot-ui.vercel.app/",
+  },
+  {
+    id: 3,
     title: "MovieReviews",
     des: "MovieReviews is a web app where users can see the reviews of the movies and can also add their reviews.",
     img: "/reviewsapp.png",
@@ -139,7 +147,7 @@ export const projects: Projects[] = [
     github: "https://github.com/mohammedarbaz119/Review-App",
   },
   {
-    id: 2,
+    id: 4,
     title: "CropSmart",
     des: "Project uses ML for crop and fertilizer recommendations with plant disease recogniton for crop diagnosis, boosting agricultural productivity.",
     img: "/cropsmaart.svg",
@@ -147,7 +155,7 @@ export const projects: Projects[] = [
     github: "https://github.com/nihal3000/Harvestify",
   },
   {
-    id: 3,
+    id: 5,
     title: "TicketShow",
     des: "TicketShow is a web app where users can book tickets for movies and can also see the reviews of the movies.",
     img: "/TicketShow.jpeg",
@@ -161,38 +169,13 @@ export const projects: Projects[] = [
     ],
     github: "https://github.com/asdsyd/appdev2",
   },
-];
-
-export const testimonials = [
   {
-    quote:
-      "Collaborating with Mohammed Arbazuddin Qureshi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mohammed Arbazuddin Qureshi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mohammed Arbazuddin Qureshi is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Mohammed Arbazuddin Qureshi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mohammed Arbazuddin Qureshi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mohammed Arbazuddin Qureshi is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Mohammed Arbazuddin Qureshi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mohammed Arbazuddin Qureshi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mohammed Arbazuddin Qureshi is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Mohammed Arbazuddin Qureshi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mohammed Arbazuddin Qureshi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mohammed Arbazuddin Qureshi is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Mohammed Arbazuddin Qureshi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mohammed Arbazuddin Qureshi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mohammed Arbazuddin Qureshi is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    id: 5,
+    title: "ChemBot",
+    des: "ChemBot is a CRAG-based LLM chatbot that answers users' queries related to chemistry, providing accurate and detailed information.",
+    img: "/ChemBot.jpeg",
+    iconLists: ["flask.jpg", "html.png", "css.png", "react.png", "node.png"],
+    link: "https://chembot-ui.vercel.app/",
   },
 ];
 
