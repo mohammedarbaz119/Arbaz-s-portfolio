@@ -169,14 +169,6 @@ export const projects: Projects[] = [
     ],
     github: "https://github.com/asdsyd/appdev2",
   },
-  {
-    id: 5,
-    title: "ChemBot",
-    des: "ChemBot is a CRAG-based LLM chatbot that answers users' queries related to chemistry, providing accurate and detailed information.",
-    img: "/ChemBot.jpeg",
-    iconLists: ["flask.jpg", "html.png", "css.png", "react.png", "node.png"],
-    link: "https://chembot-ui.vercel.app/",
-  },
 ];
 
 export const socialMedia = [
